@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<!-- -->
+
+<head>
+    <title> Preventivatore Online - Vita / Mutuo</title>
+    <link rel="icon" type="image/x-icon" href="icona.png">
+    <!--deve essere messa come.ico-->
+    <link rel="stylesheet" href="stili.css">
+
+</head>
+
+<body class="body">
+
+    <!-- Logo Benito Melis e collegamento a index-->
+    <a href="index.html"><img src="./images/BM.png" alt="Bm" width="15%" class="logo" hspace="2%"></a>
+
+    <!-- form per inviare modulo casa-->
+    <form method="post" name="myemailform" action="form-to-email-vitamutuo.php">
+
+        <div class="centroAbb">
+
+            <!-- titolo-->
+            <div class="contornoVerde">
+                <div class=titolo>
+                    <h3>Inserimento dati per preventivo online <br> Premere il pulsante "invia i dati" (in fondo alla pagina) solo al termine dell'inserimento.</h3>
+                </div>
+            </div>
+
+            <!-- richieste-->
+            <div class="richiesta">
+                <div class="centro">
+                    <div class="contornoVerde">
+                        <p class="titolo2">MUTUO</p>
+                        <p>Data di nascita: <input name="Data_di_nascita" type="text" value=" " size="10" maxlength="200" /></p>
+                        <p>Sesso: <input type="radio" id="sesso" name="Sesso" value="Maschio">
+                            <label for="Sesso">Maschio</label>
+                            <input type="radio" id="sesso" name="Sesso" value="Femmina">
+                            <label for="Sesso">Femmina</label> </p>
+                        <p>Fumatore: <input type="radio" id="fumatore" name="Fumatore" value="fumatore">
+                            <label for="Fumatore">Si</label>
+                            <input type="radio" id="fumatore" name="Fumatore" value="non fumatore">
+                            <label for="Fumatore">No</label></p>
+                        <p>Capitale da assicurare: <input name="Valore_da_assicurare" type="text" value=" " size="10" maxlength="200" /></p>
+                        <p>Valore residuo mutuo: <input name="Valore_residuo_del_mutuo" type="text" value=" " size="10" maxlength="200" /></p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <!-- contatto-->
+            <div class="richiesta">
+                <div class="centro">
+                    <div class="contornoVerde">
+                        <p class="titolo2">CONTATTO</p>
+                        <p>Email: <input name="E_mail" type="text" value=" " size="10" maxlength="200" /></p>
+                        <p>Riferimento telefonico per invio preventivo (whatsapp): <input name="Telefono" type="text" value=" " size="10" maxlength="200" /></p>
+                        <p>Ulteriori informazioni (no dati sensibili): <input name="Eventuali_richieste" type="text" value=" " size="10" maxlength="200" /></p>
+                        <!-- php: <input type="submit" value="Send Form"> -->
+                        <!--<button type="submit">Invia i dati</button>-->
+                        <input type="submit" value="Invia il modulo">
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>
