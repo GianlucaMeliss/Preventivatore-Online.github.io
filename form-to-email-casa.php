@@ -91,7 +91,7 @@ $email_body = "
       ---------------
       E-mail: $Email\n
       Telefono: $Telefono\n
-      Richieste aggiuntive: $Eventuali_richieste\n\n\n\n".               
+      Richieste aggiuntive: $Eventuali_richieste\n\n\n\n";               
 
 //invio        
 $to = "infodati.bm@gmail.com";
