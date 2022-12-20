@@ -32,19 +32,8 @@ PHP mail send
   $headers = "From: $email_from \r\n";
   mail($to,$email_subject,$email_body,$headers);
 -->
-  <head>
-	<title> Preventivatore Online</title>
-	<link rel="icon" type="image/x-icon" href="icona.png"><!--deve essere messa come.ico-->
-	<link rel="stylesheet" href="stili2.css">
-  </head>
-  
-  <body>
-  	  <div class="titolo">
-	<h3>il tuo modulo e' stato inviato <br> puoi chiudere questa scheda <br></h3>
-  	</div>
-  </body>
-</html>
-<?php
+
+<!--
 
 //variabili
   $Luogo_di_ubicazione = $_POST['Luogo_di_ubicazione'];
@@ -99,5 +88,20 @@ if (false === $bytes) {
 }
 
 
+
+-->
+  <head>
+	<title> Preventivatore Online</title>
+	<link rel="icon" type="image/x-icon" href="icona.png"><!--deve essere messa come.ico-->
+	<link rel="stylesheet" href="stili2.css">
+  </head>
+  
+  <body>
+  	  <div class="titolo">
+	<h3>il tuo modulo e' stato inviato <br> puoi chiudere questa scheda <br></h3>
+  	</div>
+  </body>
+</html>
+<?php
 
  ?>
