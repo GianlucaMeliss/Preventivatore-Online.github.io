@@ -46,6 +46,19 @@ PHP mail send
 </html>
 <?php
 
+//variabili
+  $Luogo_di_ubicazione = $_POST['Luogo_di_ubicazione'];
+  $Tipo_Abitazione = $_POST['Tipo_Abitazione'];
+  $Valore = $_POST['Valore'];
+  $Tipo = $_POST['Tipo'];
+  $Garanzia = $_POST['Garanzia'];
+  $Email = $_POST['Email'];
+  $Telefono = $_POST['Telefono'];
+  $Eventuali_richieste = $_POST['Eventuali_richieste'];
+
+ $ip = getenv(REMOTE_ADDR);
+ $data = date("j F, Y, G:i:s T", time());
+
 // Crea un'istanza della classe PHPMailer
 $mail = new PHPMailer;
 
