@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<!-- -->
+
+<head>
+    <title> Preventivatore Online - Casa</title>
+    <link rel="icon" type="image/x-icon" href="icona.png">
+    <!--deve essere messa come.ico-->
+    <link rel="stylesheet" href="stili2.css">
+
+</head>
+
+<body class="body">
+
+    <!-- Logo Benito Melis e collegamento a index-->
+    <a href="index.html"><img src="./images/BM.png" alt="Bm" width="15%" class="logo" hspace="2%"></a>
+
+    <!-- form per inviare modulo casa-->
+    <form method="post" name="myemailform" action="form-to-email-casa.php">
+
+        <div class="centroAbb">
+
+            <!-- titolo-->
+            <div class="contornoVerde">
+                <div class=titolo>
+                    <h3>Inserimento dati per preventivo online <br> Premere il pulsante "invia i dati" (in fondo alla pagina) solo al termine dell'inserimento.</h3>
+                </div>
+            </div>
+
+            <!-- richieste-->
+            <div class="richiesta">
+                <div class="centro">
+                    <div class="contornoVerde">
+                        <p>Luogo di ubicazione: <input name="Luogo_di_ubicazione" type="text" value=" " size="10" maxlength="200" /></p>
+                        <p>Tipologia (Es. appartamento, villa...): <input name="Tipo_Abitazione" type="text" value=" " size="10" maxlength="200" /></p>
+                        <p>Valore immobile o metri quadri: <input name="Valore" type="text" value=" " size="10" maxlength="200" />
+                            <input type="radio" id="mt" name="Tipo" value="mtq">
+                            <label for="Tipo">Mt q</label>
+                            <input type="radio" id="Estesa" name="Tipo" value="euro">
+                            <label for="Tipo">&#8364</label>
+                        </p>
+                        <a>Garanzia: <!-- mutuo-->
+                            <br>
+                            <input type="radio" id="Mutuo" name="Garanzia" value="Mutuo" >
+                            <label for="Garanzia">Mutuo (Incendio, fulmine, esplosione, scoppio)</label>
+                            <br>
+                            <!-- estesa-->
+                            <input type="radio" id="Estesa" name="Garanzia" value="Estesa" >
+                            <label for="Garanzia">Estesa (Incendio, rischi ordinari, piu' estensioni danni</label></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- contatto-->
+            <div class="richiesta">
+                <div class="centro">
+                    <div class="contornoVerde">
+                        <p class="titolo2">CONTATTO</p>
+                        <p>Email: <input name="E_mail" type="text" value=" " size="10" maxlength="200" /></p>
+                        <p>Riferimento telefonico per invio preventivo (whatsapp): <input name="Telefono" type="text" value=" " size="10" maxlength="200" /></p>
+                        <p>Ulteriori informazioni (no dati sensibili): <input name="Eventuali_richieste" type="text" value=" " size="10" maxlength="200" /></p>
+                        <!-- php: <input type="submit" value="Send Form"> -->
+                        <!--<button type="submit">Invia i dati</button>-->
+                        <input type="submit" value="Invia il modulo">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+
+</html>
