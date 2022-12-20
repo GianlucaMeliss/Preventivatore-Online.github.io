@@ -97,9 +97,14 @@ if (false === $bytes) {
   </head>
   
   <body>
-  	  <div class="titolo">
-	<h3>il tuo modulo e' stato inviato <br> puoi chiudere questa scheda <br></h3>
-  	</div>
+    <div class="centro">
+      <div class="contornoVerde">
+      <div class="titolo">
+	      <h3>il tuo modulo e' stato inviato <br> puoi chiudere questa scheda <br></h3>
+  	  </div>
+      </div>
+    </div>
+  	  
   </body>
 </html>
 <?php
