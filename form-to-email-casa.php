@@ -76,8 +76,9 @@ Luogo di ubicazione: $Luogo_di_ubicazione\n
   Telefono: $Telefono\n
   Richieste aggiuntive: $Eventuali_richieste\n\n\n\n";
 
-//per prendere gli indirizzi ip dei visitatori e salvarli in un file
+$mail->send()
 
+//per prendere gli indirizzi ip dei visitatori e salvarli in un file
 $filename = 'users.txt';
 $text = "\n".'Ip:'.$ip.'		Data:'.$data;
 
