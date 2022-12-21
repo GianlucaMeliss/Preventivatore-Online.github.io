@@ -74,7 +74,7 @@ $Tipo_Abitazione = $_POST['Tipo_Abitazione'];
 $Valore = $_POST['Valore'];
 $Tipo = $_POST['Tipo'];
 $Garanzia = $_POST['Garanzia'];
-$Email = $_POST['Email'];
+$Email = $_POST['E_mail'];
 $Telefono = $_POST['Telefono'];
 $Eventuali_richieste = $_POST['Eventuali_richieste'];
 
@@ -109,3 +109,4 @@ if (false === $bytes) {
     exit;
 }
  ?>
+
