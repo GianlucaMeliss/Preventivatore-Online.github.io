@@ -1,54 +1,6 @@
 <html>
 <!--
-PHP mail send
 
-
--->
-
-<!--
-
-//variabili
-  $Luogo_di_ubicazione = $_POST['Luogo_di_ubicazione'];
-  $Tipo_Abitazione = $_POST['Tipo_Abitazione'];
-  $Valore = $_POST['Valore'];
-  $Tipo = $_POST['Tipo'];
-  $Garanzia = $_POST['Garanzia'];
-  $Email = $_POST['Email'];
-  $Telefono = $_POST['Telefono'];
-  $Eventuali_richieste = $_POST['Eventuali_richieste'];
-
- $ip = getenv(REMOTE_ADDR);
- $data = date("j F, Y, G:i:s T", time());
-
-// Crea un'istanza della classe PHPMailer
-$mail = new PHPMailer;
-
-// Imposta il protocollo SMTP
-$mail->isSMTP();
-
-// Imposta le opzioni SMTP
-$mail->Host = 'infodati.bm.gmail.com';
-$mail->SMTPAuth = true;
-$mail->Username = 'infodati.bm';
-$mail->Password = 'attivita@cral';
-$mail->SMTPSecure = 'tls';
-$mail->Port = 587;
-
-// Imposta i dettagli dell'email
-$mail->setFrom('infodati.bm.gmail.com', 'infodati.bm');
-$mail->addAddress('infodati.bm.gmail.com', 'Nuova Richiesta');
-$mail->Subject = 'NUOVA RICHIESTA';
-$mail->Body = "
-Luogo di ubicazione: $Luogo_di_ubicazione\n
-  Tipo di abitazione: $Tipo_Abitazione \n
-  Valore: $Valore $Tipo\n  
-  Garanzia: $Garanzia\n
-  ---------------
-  E-mail: $Email\n
-  Telefono: $Telefono\n
-  Richieste aggiuntive: $Eventuali_richieste\n\n\n\n";
-
-$mail->send()
 -->
   <head>
 	<title> Preventivatore Online</title>
