@@ -36,7 +36,7 @@
         ----------
         E-mail: $Email\n
         Telefono: $Telefono\n
-        Richieste aggiuntive: $Eventuali_richieste\n\n\n\n".               
+        Richieste aggiuntive: $Eventuali_richieste\n\n\n\n";               
 
 //invio        
   $to = "infodati.bm@gmail.com";
@@ -45,7 +45,6 @@
 
 
 //per prendere gli indirizzi ip dei visitatori e salvarli in un file
-
 $filename = 'users.txt';
 $text = "\n".'Ip:'.$ip.'		Data:'.$data;
 

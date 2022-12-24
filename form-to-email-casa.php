@@ -36,7 +36,7 @@ $data = date("j F, Y, G:i:s T", time());
   $email_from = 'rsyqlumu@preventivatoretestbm.x10.mx';
 $email_subject = "NUOVA RICHIESTA";
 $email_body = "
-    Luogo di ubicazione: $Luogo_di_ubicazione\n
+      Luogo di ubicazione: $Luogo_di_ubicazione\n
       Tipo di abitazione: $Tipo_Abitazione \n
       Valore: $Valore $Tipo\n  
       Garanzia: $Garanzia\n
